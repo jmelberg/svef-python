@@ -10,8 +10,8 @@ if len(sys.argv) > 1:
     new_entry['name'] = name
 
     if name:
-        phone = input("What is {}'s phone number? ".format(name))
-        email = input("What is {}'s email address? ".format(name))
+        phone = raw_input("What is {}'s phone number? ".format(name))
+        email = raw_input("What is {}'s email address? ".format(name))
 
         # If phone
         if len(phone) > 0:
